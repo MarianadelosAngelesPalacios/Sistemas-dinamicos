@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+.Nav{
+   background-color:#D9ECF2;
+   box-sizing: border-box;
+   height: 80px;
+   display: flex;
+}
+
+.Chapter{
+    position: relative;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 36px;
+    margin:auto;
+    background-color: transparent;
+    border-color: transparent;
+   
+}
+
+h1{
+    position: relative;
+ 
+    padding: 10px;
+}

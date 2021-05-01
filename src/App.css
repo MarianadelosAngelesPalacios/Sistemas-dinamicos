@@ -1,0 +1,30 @@
+.Contendor{
+  text-align: right;
+  font-size: 85px;
+  letter-spacing: 25px;
+  cursor: default;
+  --maskX:100;
+  --maskY:100;
+}
+
+.Portafolio{
+  position: relative;
+  left: -150px;
+  color: black;
+}
+
+.Portafolio-clone{
+  position: relative;
+  top: -786px;
+  left: -150px;
+  text-align: right;
+  padding: 0px;
+  /* color: #222222; */
+  color: blueviolet;
+  clip-path: polygon(100% 0,calc(var(--maskX)*1%) 0, calc(var(--maskY)*1%) 100%, 0% 100%);
+}
+
+* {
+  cursor: url('resistor_4.png'), none;
+}
+
